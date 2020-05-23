@@ -1,38 +1,19 @@
 \chapter{Introduction}
-\label{chap:introduction}
 
- Start with the \emph{need}.
- There is a \emph{gap} in our current capabilities -- show the gap before you propose to fill it.
+The current set of data on plant identification is geared towards direct research of machine capabilities or large scale food production and distribution.
+Plant identification through computer vision technologies has been primarily  researched in controlled settings with specific  views of the plants. This approach has value and merits but is still limited in both scope and application as most models focus on a limited number of plants or provide only a top down perspective of each plant.
 
- This is the introduction of the entire thesis.
- The target audience is a reader who is NOT an expert in your focus area.
- You need to convince them that your TOPIC is important but you can not get too technical
- yet.  This is the Layman's version of your problem.
+Home gardeners, market gardens, and small sized farms produce a wide variety of plants using a multitude of methods. Gardens are propagated in various mediums such as raised beds, trellises, and tabled trays or towers. These plants are inspected by the caretaker at parallel and oblique angles  
 
- Start by telling a story:  what are some important or excting tasks that the reader might
-  wish to ba able to do.
-  The goal is to convince the reader that the WANT or NEED something before you reveal that
-  you are gooing to get it for them.
+The goal is to build a data-set of photos and labels of garden variety plants viewed at an oblique angle, for identification in an outdoor environment. Using Machine Learning algorithms we will be testing for identification accuracy against varied plant types, for example, differentiating between a carrot plant and a beet plant, and between plant breeds, for example, differentiating  a Roma tomato plant from a Beefeater tomato plant before fruiting. First we will use a binary classification of CropPlant/Invasive Plant. Determining a crop plant will allow for further categorization through labeling the plant type. A final classification will attempt to differentiate the plant type breed.
 
- If you are having a hard time generating ideas on what capabilities to list,  do this:
+First we will use a binary classification of CropPlant/InvasivePlant. Determining a crop plant will allow for further categorization through labeling the plant type. A final classification will attempt to differentiate the plant types breed.
 
 \begin{enumerate}
-    \item    Go through all of the most similar related work you can find on your topic.
-   \item  Look at the first paragraphs of their introduction -- they almost certainly
-       list some application of their work.   Write doewn their applications as comments
-       in this document.  Then try to cherry-pick the examples that are most relevant to
-       your own work.  Do not copy what they say word for word -- but you can learn a lot
-       from the way competing papers sell their work.
+\item Binary Classification - Invasive Plant / Crop Plant
+\item Crop identification - Tomato, Beet, Carrot, Watermelon
+\item Breed identification - Roma, Beefeater, Cherry 
 \end{enumerate}
-
-
-  Once you have listed some needed capabilities, say that they all boil down to one important
-  problem that needs to be solved.
-
-
-
-I have used the \emph{glossaries} package to manage acronyms and terms in the thesis.
-You \textbf{should use }  this. I do not like reading long documents and doing a scavenger hunt to see what a symbol means! I provide example entries for \glspl{real number} \glsadd{real-number-symbol} and \gls{api}.
 
 \section{Problem Statement} \label{sec:problem-statement}
 We describe the XXX problem as follows: ...

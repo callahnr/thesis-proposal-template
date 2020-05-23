@@ -1,0 +1,9 @@
+\begin{thebibliography}{1}
+
+\bibitem{sample2019}
+I.M. Author.
+\newblock Sample publication in {BibTeX}.
+\newblock In {\em International Conference on Sample Publications (ICSP)},
+  pages 1--10, January 2019.
+
+\end{thebibliography}
